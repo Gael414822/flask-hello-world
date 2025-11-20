@@ -33,7 +33,7 @@ def sensor():
         cursor = connection.cursor()
         
         # Example query
-        cursor.execute("SELECT *sensores();")
+        cursor.execute("SELECT NOW();")
         result = cursor.fetchone()
         print("Current Time:", result)
     
